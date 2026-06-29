@@ -9,8 +9,10 @@
   --color-silver-light: #C7C7CC;
   --color-orange: #FF6B00;
   --color-orange-dim: #CC5600;
-  --font-display: var(--font-bebas);
-  --font-body: var(--font-inter);
+  /* Register font utilities: font-bebas, font-inter, font-display */
+  --font-bebas: var(--font-bebas), "Impact", sans-serif;
+  --font-inter: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-bebas), "Impact", sans-serif;
 }
 
 * {
