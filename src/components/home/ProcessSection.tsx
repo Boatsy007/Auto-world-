@@ -51,7 +51,7 @@ export function ProcessSection() {
           <div className="absolute top-8 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#FF6B00]/30 to-transparent" />
 
           <div className="grid grid-cols-5 gap-6 relative">
-            {steps.map((step, i) => (
+            {steps.map((step) => (
               <div key={step.number} className="flex flex-col items-center text-center pt-0">
                 {/* Circle */}
                 <div className="w-16 h-16 rounded-full border-2 border-[#FF6B00] bg-[#0A0A0A] flex items-center justify-center mb-6 relative z-10 flex-shrink-0">

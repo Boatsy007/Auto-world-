@@ -2,8 +2,6 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import type { Metadata } from 'next'
-
 const categories = ['All', 'Ceramic Coating', 'Paint Correction', 'Interior', 'Exterior', 'PPF']
 
 const galleryItems = [
